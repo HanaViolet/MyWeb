@@ -1,40 +1,15 @@
 # =====================================
-# 🦋 Butterfly 主题个性化配置文件
+# 🦋 Butterfly 主题深度优化配置文件
 # =====================================
 
-# 1. 网站全局背景设置
-# -------------------------------------
-# background: url(/img/bg.jpg)
+# --------------------------------------
+# 1. 导航与菜单设置
+# --------------------------------------
+nav:
+  logo:
+  display_title: true
+  fixed: true # 建议开启固定导航栏，体验更好
 
-# 2. 首页顶部大图 (Page Header)
-# -------------------------------------
-index_img: /img/banner.jpg
-
-# 3. 侧边栏个人名片 (Avatar & Follow Button)
-# -------------------------------------
-avatar:
-  img: /img/avatar.jpg
-  effect: false # 鼠标移上去会旋转
-
-# 侧边栏 "Follow Me" 按钮
-card_author:
-  enable: true
-  description:
-  button:
-    enable: true
-    icon: fab fa-github
-    text: Follow Me
-    link: https://github.com/HanaViolet
-
-# 4. 社交图标 (Sidebar Social)
-# -------------------------------------
-social:
-  fab fa-github: https://github.com/HanaViolet || GitHub || #000000
-  fas fa-envelope: mailto:ljh118@qq.com || Email || #0078d7
-  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2627500660&site=qq&menu=yes || QQ || #5FB878
-
-# 5. 顶部导航菜单 (Menu)
-# -------------------------------------
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
@@ -43,9 +18,131 @@ menu:
   清单: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
-# =====================================
-# 💬 Giscus 评论系统 (新增)
-# =====================================
+# --------------------------------------
+# 2. 代码块设置 (优化美观度)
+# --------------------------------------
+code_blocks:
+  theme: light
+  macStyle: true # 开启 Mac 风格（红黄绿圆点），更美观
+  height_limit: false
+  word_wrap: true # 建议开启换行，防止代码过长溢出
+  copy: true
+  language: true
+  shrink: false
+
+# --------------------------------------
+# 3. 社交与个人信息
+# --------------------------------------
+social:
+  fab fa-github: https://github.com/HanaViolet || GitHub || #000000
+  fas fa-envelope: mailto:ljh118@qq.com || Email || #0078d7
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2627500660&site=qq&menu=yes || QQ || #5FB878
+
+avatar:
+  img: /img/avatar.jpg
+  effect: true # 开启旋转效果，增加趣味性
+
+# --------------------------------------
+# 4. 图片与背景
+# --------------------------------------
+index_img: /img/banner.jpg # 首页大图
+favicon: /img/favicon.png
+
+# --------------------------------------
+# 5. 首页副标题 (API 接入)
+# --------------------------------------
+subtitle:
+  enable: true
+  effect: true # 开启打字机效果
+  # 来源选择:
+  # 1 - hitokoto.cn (一言 - 古诗词/优美句子)
+  source: 1 
+  sub: 
+
+# --------------------------------------
+# 6. 文章与页面设置
+# --------------------------------------
+index_layout: 1 # 标准行布局
+toc:
+  post: true
+  number: true
+  expand: true # 默认展开目录，方便阅读
+  style_simple: true # 简洁风格目录
+
+# 版权信息
+post_copyright:
+  enable: true
+  decode: true
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# --------------------------------------
+# 7. 侧边栏 (Sidebar)
+# --------------------------------------
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: false # 手机端通常关闭侧边栏以节省空间
+  position: right
+  card_author:
+    enable: true
+    description: 
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/HanaViolet
+  card_announcement:
+    enable: false
+    content: 
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+  card_tags:
+    enable: true
+    limit: 40
+  card_archives:
+    enable: true
+    type: monthly
+    limit: 8
+  card_webinfo:
+    enable: true # 显示网站统计信息
+    post_count: true
+    last_push_date: true
+
+# --------------------------------------
+# 8. 全局功能增强
+# --------------------------------------
+# 搜索功能 (已整合你的配置)
+search:
+  use: local_search
+
+local_search:
+  enable: true
+  preload: false
+  top_n_per_article: 1
+
+# 日夜间模式切换
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false 
+
+# 性能优化 (建议开启)
+pjax:
+  enable: true # 页面无刷新加载
+lazyload:
+  enable: true # 图片懒加载
+
+# --------------------------------------
+# 9. 评论系统 (Giscus)
+# --------------------------------------
 comments:
   use: Giscus
   text: true
@@ -66,38 +163,53 @@ giscus:
   lang: zh-CN
   crossorigin: anonymous
 
-# =====================================
-# 🛠️ 增强功能
-# =====================================
+# --------------------------------------
+# 10. 视觉特效 (根据你的要求配置)
+# --------------------------------------
 
-# 搜索功能
-search:
-  use: local_search
-
-local_search:
+# [要求3] 背景特效: Canvas Nest (线条吸附)
+canvas_nest:
   enable: true
-  preload: false
-  top_n_per_article: 1
+  color: '0,0,255' # 线条颜色 (RGB)
+  opacity: 0.5     # 透明度，建议0.5-0.7，太高会干扰文字阅读
+  zIndex: -1       # 置于背景层
+  count: 99        # 线条数量
+  mobile: false    # 手机端关闭以节省电量
 
-# 日夜间模式
-darkmode:
+# [要求2] 鼠标点击特效: 文字
+clickShowText:
   enable: true
-  button: true
-  autoChangeMode: 1
+  text:
+    - Hello World
+    - BugFree
+    - 坚持
+    - 努力
+    - 奋斗
+    - 快乐
+  fontSize: 15px
+  random: true
+  mobile: false
 
-# 文章版权声明
-post_copyright:
+# --------------------------------------
+# 其他辅助设置
+# --------------------------------------
+# 网站字数统计
+wordcount:
   enable: true
-  decode: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
 
-# =====================================
-# ⚡ 性能优化配置
-# =====================================
-pjax:
-  enable: true
+# 网站验证 (可选)
+site_verification:
 
-instantpage:
-  enable: true
+# 注入设置 (无需修改)
+inject:
+  head:
+  bottom:
 
-lazyload:
-  enable: true
+# CDN 设置 (使用默认即可)
+CDN:
+  internal_provider: local
+  third_party_provider: jsdelivr
+  version: false
