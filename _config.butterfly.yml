@@ -1,18 +1,32 @@
-# 1. 首页顶部大图
+# =====================================
+# 🦋 Butterfly 主题个性化配置文件
+# =====================================
+
+# 1. 网站全局背景设置 (之前你缺的就是这行！)
+# -------------------------------------
+# 确保你的 source/img/ 目录下真的有 bg.jpg 这张图
+# background: url(/img/bg.jpg)
+
+# 2. 首页顶部大图 (Page Header)
+# -------------------------------------
 index_img: /img/banner.jpg
 
-# 2. 侧边栏名片
+# 3. 侧边栏个人名片
+# -------------------------------------
 avatar:
   img: /img/avatar.jpg
-  effect: true # 开启鼠标悬停旋转特效（很酷！）
+  effect: false # 鼠标移上去会旋转
 
-# 3. 社交图标 (格式：图标类名: 链接 || 提示文字 || 颜色)
-# 图标去这里找：https://fontawesome.com/v6/search?o=r&m=free
+# 4. 社交图标 (Sidebar Social)
+# -------------------------------------
 social:
   fab fa-github: https://github.com/HanaViolet || GitHub || #000000
-  fas fa-envelope: ljh118@qq.com || Email || #0078d7
-  fab fa-qq: 2627500660 || QQ || #5FB878
+  fas fa-envelope: mailto:ljh118@qq.com || Email || #0078d7
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2627500660&site=qq&menu=yes || QQ || #5FB878
+  # 注意：QQ链接我帮你换成了可以直接点击聊天的格式
 
+# 5. 顶部导航菜单 (Menu)
+# -------------------------------------
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
@@ -20,3 +34,26 @@ menu:
   分类: /categories/ || fas fa-folder-open
   清单: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+
+# 6. 必开的增强功能 (强烈推荐)
+# -------------------------------------
+
+# 搜索功能 (让你的博客能搜索)
+search:
+  use: local_search
+
+local_search:
+  enable: true
+  preload: false
+  top_n_per_article: 1
+
+# 日夜间模式 (右下角的小齿轮)
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1 # 1: 跟随系统, 2: 根据时间
+
+# 文章版权声明 (文章末尾显示作者和链接)
+post_copyright:
+  enable: true
+  decode: true
