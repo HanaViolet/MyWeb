@@ -1,0 +1,22 @@
+# 1. 首页顶部大图
+index_img: /img/banner.jpg
+
+# 2. 侧边栏名片
+avatar:
+  img: /img/avatar.jpg
+  effect: true # 开启鼠标悬停旋转特效（很酷！）
+
+# 3. 社交图标 (格式：图标类名: 链接 || 提示文字 || 颜色)
+# 图标去这里找：https://fontawesome.com/v6/search?o=r&m=free
+social:
+  fab fa-github: https://github.com/HanaViolet || GitHub || #000000
+  fas fa-envelope: ljh118@qq.com || Email || #0078d7
+  fab fa-qq: 2627500660 || QQ || #5FB878
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart

@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+# Site
+title: Hanasakura的博客      # 你的博客名字
+subtitle: 'Code & Life'     # 副标题（会显示在首页大图中央）
+description: 'AI学习者 | 全栈开发 | 生活记录' # 网站描述（SEO用）
+keywords: Vue, Hexo, Python, AI # 关键词
+author: Hanasakura          # 你的名字（会显示在文章作者栏）
+language: zh-CN             # 语言改成中文
+timezone: 'Asia/Shanghai'   # 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
