@@ -3,7 +3,7 @@ title: How to bulid a web like this
 date: 2025-10-16 14:00:00
 tags: [Hexo, Netlify, 教程]
 categories: [技术杂谈]
-cover: /img/banner.png
+cover: /img/howtobuild.jpg
 description: 记录我是如何从手写 Vue 博客转向使用 Hexo + Butterfly 主题，并成功部署到 Netlify 的全过程。
 ---
 

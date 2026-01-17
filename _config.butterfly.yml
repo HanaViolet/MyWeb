@@ -9,13 +9,31 @@
 
 # 2. 首页顶部大图 (Page Header)
 # -------------------------------------
-index_img: /img/banner.png
+index_img: /img/banner.jpg
 
-# 3. 侧边栏个人名片
+# 3. 侧边栏个人名片 (Avatar & Follow Button)
 # -------------------------------------
 avatar:
   img: /img/avatar.jpg
   effect: false # 鼠标移上去会旋转
+
+# 这里的 card_author 是专门控制“Follow Me”大按钮的
+card_author:
+  enable: true
+  description:
+  button:
+    enable: true
+    icon: fab fa-github
+    text: Follow Me
+    # 👇 重点在这里！必须单独写一遍你的 GitHub 地址
+    link: https://github.com/HanaViolet
+
+# 4. 社交图标 (下面那一排小圆圈)
+# -------------------------------------
+social:
+  fab fa-github: https://github.com/HanaViolet || GitHub || #000000
+  fas fa-envelope: mailto:ljh118@qq.com || Email || #0078d7
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2627500660&site=qq&menu=yes || QQ || #5FB878  
 
 # 4. 社交图标 (Sidebar Social)
 # -------------------------------------
@@ -57,3 +75,19 @@ darkmode:
 post_copyright:
   enable: true
   decode: true
+
+# =====================================
+# ⚡ 性能优化配置
+# =====================================
+
+# 1. Pjax (无刷新跳转)
+pjax:
+  enable: true
+
+# 2. InstantPage (鼠标悬停预加载)
+instantpage:
+  enable: true
+
+# 3. Lazyload (图片懒加载) - 即使没有 placeholder 图也可以开，默认会是空白
+lazyload:
+  enable: true
