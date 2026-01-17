@@ -34,19 +34,18 @@ code_blocks:
 # 3. 社交与个人信息
 # --------------------------------------
 social:
-  fab fa-github: https://github.com/HanaViolet || GitHub || #000000
   fas fa-envelope: mailto:ljh118@qq.com || Email || #0078d7
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=2627500660&site=qq&menu=yes || QQ || #5FB878
 
 avatar:
   img: /img/avatar.jpg
-  effect: true # 开启旋转效果，增加趣味性
+  effect: false # 开启旋转效果，增加趣味性
 
 # --------------------------------------
 # 4. 图片与背景
 # --------------------------------------
 index_img: /img/banner.jpg # 首页大图
-favicon: /img/favicon.png
+favicon: /img/sakura.jpg
 
 # --------------------------------------
 # 5. 首页副标题 (API 接入)
@@ -180,12 +179,10 @@ canvas_nest:
 clickShowText:
   enable: true
   text:
-    - Hello World
-    - BugFree
-    - 坚持
-    - 努力
-    - 奋斗
-    - 快乐
+    - 才能
+    - 智慧
+    - 价值观
+
   fontSize: 15px
   random: true
   mobile: false
