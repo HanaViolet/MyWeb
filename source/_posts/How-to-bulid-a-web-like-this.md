@@ -6,10 +6,10 @@ tags:
   - 教程
 categories:
   - 技术杂谈
-cover: /img/howtobuild.jpg
+cover: /img/cover1.jpg
 description: 记录我是如何从手写 Vue 博客转向使用 Hexo + Butterfly 主题，并成功部署到 Netlify 的全过程。
 abbrlink: c029052
-date: 2025-10-16 14:00:00
+date: 2026-01-16 14:00:00
 ---
 
 ## 前言
