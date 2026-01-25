@@ -1,5 +1,60 @@
 ---
 title: 图库
 date: 2026-01-25 20:25:44
-type: "gallery"
+top_img: /img/gallery/小缘02.png
 ---
+
+{% gallery %}
+![小缘00](/img/gallery/小缘00.png)
+![小缘01](/img/gallery/小缘01.png)
+![小缘02](/img/gallery/小缘02.png)
+![小缘03](/img/gallery/小缘03.png)
+![小缘04](/img/gallery/小缘04.png)
+![小缘05](/img/gallery/小缘05.png)
+![小缘06](/img/gallery/小缘06.png)
+![小缘07](/img/gallery/小缘07.png)
+![小缘08](/img/gallery/小缘08.png)
+![小缘09](/img/gallery/小缘09.png)
+![小缘10](/img/gallery/小缘10.png)
+![花鸟00](/img/gallery/花鸟00.png)
+![花鸟01](/img/gallery/花鸟01.png)
+![花鸟02](/img/gallery/花鸟02.png)
+![花鸟03](/img/gallery/花鸟03.png)
+![花鸟04](/img/gallery/花鸟04.png)
+![花鸟05](/img/gallery/花鸟05.png)
+![花鸟06](/img/gallery/花鸟06.png)
+![花鸟07](/img/gallery/花鸟07.png)
+![花鸟08](/img/gallery/花鸟08.png)
+![花鸟09](/img/gallery/花鸟09.png)
+![花鸟10](/img/gallery/花鸟10.png)
+![花鸟11](/img/gallery/花鸟11.png)
+![花鸟12](/img/gallery/花鸟12.png)
+![花鸟13](/img/gallery/花鸟13.png)
+![花鸟14](/img/gallery/花鸟14.png)
+![花鸟15](/img/gallery/花鸟15.png)
+![花鸟16](/img/gallery/花鸟16.png)
+![花鸟17](/img/gallery/花鸟17.png)
+![彼岸花01](/img/gallery/彼岸花01.png)
+![彼岸花02](/img/gallery/彼岸花02.png)
+![彼岸花03](/img/gallery/彼岸花03.png)
+![彼岸花04](/img/gallery/彼岸花04.png)
+![彼岸花05](/img/gallery/彼岸花05.png)
+![彼岸花06](/img/gallery/彼岸花06.png)
+![彼岸花07](/img/gallery/彼岸花07.png)
+![季00](/img/gallery/季00.png)
+![季01](/img/gallery/季01.png)
+![季02](/img/gallery/季02.png)
+![季03](/img/gallery/季03.png)
+![季04](/img/gallery/季04.png)
+![季05](/img/gallery/季05.png)
+![季06](/img/gallery/季06.png)
+![季07](/img/gallery/季07.png)
+![季08](/img/gallery/季08.png)
+![季09](/img/gallery/季09.png)
+![季10](/img/gallery/季10.png)
+![季11](/img/gallery/季11.png)
+![季12](/img/gallery/季12.png)
+![季13](/img/gallery/季13.png)
+
+{% endgallery %}
+
