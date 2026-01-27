@@ -14,7 +14,7 @@
 </p>
 
 <!-- 4. 博客链接按钮 -->
-[👉 **访问我的个人博客** 👈](https://你的博客地址.com)
+[👉 **访问我的个人博客** 👈](www.hanasakura.ink)
 
 </div>
 
@@ -24,17 +24,12 @@
 
 这是我的个人博客源码仓库，基于 **Hexo** 框架构建，使用了 **Butterfly** 主题。在这里我记录技术笔记、生活感悟和学习历程。
 
-## ✨ 预览 (Preview)
-
-<!-- 这里建议放一张你的博客首页截图或者GIF，如果没有，先删掉下面这行 -->
-<!-- ![Blog Screenshot](https://你的截图链接.png) -->
-
 ## 📊 数据统计 (Stats)
 
 <div align="center">
   <!-- 请将 username= 后面的值换成你的 GitHub 用户名 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=buefy&hide_border=true" height="150" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=buefy&hide_border=true" height="150" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HanaViolet&show_icons=true&theme=buefy&hide_border=true" height="150" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HanaViolet&layout=compact&theme=buefy&hide_border=true" height="150" alt="langs" />
 </div>
 
 ## 🛠️ 本地运行 (Development)
@@ -43,7 +38,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/你的用户名/你的仓库名.git
+git clone https://github.com/HanaViolet/MyWeb.git
 
 # 安装依赖
 npm install
