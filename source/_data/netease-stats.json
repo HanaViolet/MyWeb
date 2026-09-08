@@ -3,7 +3,7 @@
   "profileUrl": "https://music.163.com/#/user/home?id=1441471952",
   "source": "NetEase Cloud Music play record API (Cookie) + public fallback",
   "endpoint": "/api/v1/play/record",
-  "updatedAt": "2026-09-07T19:57:42.773Z",
+  "updatedAt": "2026-09-08T19:26:18.424Z",
   "timezone": "Asia/Shanghai",
   "rankLimit": 20,
   "scrape": {
@@ -15,8 +15,8 @@
     "message": "Cookie 页面抓取未成功，但 Cookie 接口读取成功；公开接口用于字段补全。"
   },
   "duration": {
-    "weeklyMinutes": 96,
-    "allTimeMinutes": 127069,
+    "weeklyMinutes": 262,
+    "allTimeMinutes": 127157,
     "available": true,
     "source": "netease-listen-data",
     "endpoints": {
@@ -31,7 +31,7 @@
       "allTime": {
         "path": "totalDuration",
         "unit": "seconds",
-        "rawValue": 7624193
+        "rawValue": 7629440
       }
     },
     "validation": {
@@ -51,11 +51,33 @@
       "artist": "张碧晨",
       "album": "花千骨 电视原声带",
       "durationMs": 274504,
-      "playCount": 15,
+      "playCount": 14,
       "score": 100
     },
     {
       "rank": 2,
+      "songId": 2123807718,
+      "title": "Color Your Night",
+      "alias": "染上夜色",
+      "artist": "Lotus Juice / 高橋あず美 / アトラスサウンドチーム / ATLUS GAME MUSIC",
+      "album": "ペルソナ3 リロード オリジナル・サウンドトラック",
+      "durationMs": 227240,
+      "playCount": 12,
+      "score": 85
+    },
+    {
+      "rank": 3,
+      "songId": 3355480210,
+      "title": "花も騒めく",
+      "alias": "花亦喧嚣",
+      "artist": "ヨルシカ",
+      "album": "二人称",
+      "durationMs": 220711,
+      "playCount": 6,
+      "score": 42
+    },
+    {
+      "rank": 4,
       "songId": 1361336636,
       "title": "Come Back To Me",
       "alias": "",
@@ -63,10 +85,21 @@
       "album": "This Is The One",
       "durationMs": 237946,
       "playCount": 6,
-      "score": 40
+      "score": 42
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "songId": 769651,
+      "title": "Standing Bird",
+      "alias": "",
+      "artist": "LOVE PSYCHEDELICO",
+      "album": "This is LOVE PSYCHEDELICO",
+      "durationMs": 300973,
+      "playCount": 5,
+      "score": 35
+    },
+    {
+      "rank": 6,
       "songId": 34613621,
       "title": "Vagrant",
       "alias": "",
@@ -74,40 +107,7 @@
       "album": "Vagrant",
       "durationMs": 268571,
       "playCount": 5,
-      "score": 33
-    },
-    {
-      "rank": 4,
-      "songId": 3355480210,
-      "title": "花も騒めく",
-      "alias": "花亦喧嚣",
-      "artist": "ヨルシカ",
-      "album": "二人称",
-      "durationMs": 220711,
-      "playCount": 5,
-      "score": 33
-    },
-    {
-      "rank": 5,
-      "songId": 2123807718,
-      "title": "Color Your Night",
-      "alias": "染上夜色",
-      "artist": "Lotus Juice / 高橋あず美 / アトラスサウンドチーム / ATLUS GAME MUSIC",
-      "album": "ペルソナ3 リロード オリジナル・サウンドトラック",
-      "durationMs": 227240,
-      "playCount": 5,
-      "score": 33
-    },
-    {
-      "rank": 6,
-      "songId": 769651,
-      "title": "Standing Bird",
-      "alias": "",
-      "artist": "LOVE PSYCHEDELICO",
-      "album": "This is LOVE PSYCHEDELICO",
-      "durationMs": 300973,
-      "playCount": 4,
-      "score": 26
+      "score": 35
     },
     {
       "rank": 7,
@@ -118,7 +118,7 @@
       "album": "戒烟",
       "durationMs": 293875,
       "playCount": 4,
-      "score": 26
+      "score": 28
     },
     {
       "rank": 8,
@@ -129,7 +129,7 @@
       "album": "君の名は。",
       "durationMs": 195983,
       "playCount": 4,
-      "score": 26
+      "score": 28
     },
     {
       "rank": 9,
@@ -140,7 +140,7 @@
       "album": "DARMA GRAND PRIX",
       "durationMs": 259866,
       "playCount": 4,
-      "score": 26
+      "score": 28
     },
     {
       "rank": 10,
@@ -151,10 +151,32 @@
       "album": "有理想",
       "durationMs": 312997,
       "playCount": 4,
-      "score": 26
+      "score": 28
     },
     {
       "rank": 11,
+      "songId": 19572271,
+      "title": "Gotta Have You",
+      "alias": "",
+      "artist": "The Weepies",
+      "album": "Say I Am You",
+      "durationMs": 199786,
+      "playCount": 4,
+      "score": 28
+    },
+    {
+      "rank": 12,
+      "songId": 421807900,
+      "title": "空気椅子",
+      "alias": "空气椅子",
+      "artist": "別野加奈",
+      "album": "もう、見たくないよ、と言いつつそっと硝子の中に閉じ込めた展",
+      "durationMs": 345000,
+      "playCount": 3,
+      "score": 21
+    },
+    {
+      "rank": 13,
       "songId": 22711357,
       "title": "Darlin'",
       "alias": "",
@@ -162,21 +184,10 @@
       "album": "MTV UNplugged",
       "durationMs": 267540,
       "playCount": 3,
-      "score": 20
+      "score": 21
     },
     {
-      "rank": 12,
-      "songId": 19572271,
-      "title": "Gotta Have You",
-      "alias": "",
-      "artist": "The Weepies",
-      "album": "Say I Am You",
-      "durationMs": 199786,
-      "playCount": 3,
-      "score": 20
-    },
-    {
-      "rank": 13,
+      "rank": 14,
       "songId": 760058,
       "title": "Bloom of Youth",
       "alias": "风华正茂",
@@ -184,10 +195,10 @@
       "album": "クドわふたー オリジナル サウンドトラック",
       "durationMs": 148013,
       "playCount": 2,
-      "score": 13
+      "score": 14
     },
     {
-      "rank": 14,
+      "rank": 15,
       "songId": 642723,
       "title": "17",
       "alias": "",
@@ -195,10 +206,10 @@
       "album": "罪と罰",
       "durationMs": 272625,
       "playCount": 2,
-      "score": 13
+      "score": 14
     },
     {
-      "rank": 15,
+      "rank": 16,
       "songId": 469772,
       "title": "「籠のなか」",
       "alias": "笼中",
@@ -206,10 +217,21 @@
       "album": "「蟲師」オリジナルサウンドトラック 蟲音(むしのね) 後",
       "durationMs": 138200,
       "playCount": 2,
-      "score": 13
+      "score": 14
     },
     {
-      "rank": 16,
+      "rank": 17,
+      "songId": 441491828,
+      "title": "水星记",
+      "alias": "",
+      "artist": "郭顶",
+      "album": "飞行器的执行周期",
+      "durationMs": 325266,
+      "playCount": 2,
+      "score": 14
+    },
+    {
+      "rank": 18,
       "songId": 38358277,
       "title": "Brand New Day",
       "alias": "",
@@ -217,10 +239,10 @@
       "album": "映画 「ビリギャル」 オリジナル・サウンドトラック",
       "durationMs": 267122,
       "playCount": 2,
-      "score": 13
+      "score": 14
     },
     {
-      "rank": 17,
+      "rank": 19,
       "songId": 3355479297,
       "title": "千鳥",
       "alias": "",
@@ -228,10 +250,10 @@
       "album": "二人称",
       "durationMs": 252115,
       "playCount": 2,
-      "score": 13
+      "score": 14
     },
     {
-      "rank": 18,
+      "rank": 20,
       "songId": 3355479288,
       "title": "雲になる",
       "alias": "化云",
@@ -239,29 +261,7 @@
       "album": "二人称",
       "durationMs": 246829,
       "playCount": 2,
-      "score": 13
-    },
-    {
-      "rank": 19,
-      "songId": 3337367763,
-      "title": "AIZO",
-      "alias": "TV动画《咒术回战：死灭回游 前篇》片头曲",
-      "artist": "King Gnu",
-      "album": "AIZO",
-      "durationMs": 215922,
-      "playCount": 2,
-      "score": 13
-    },
-    {
-      "rank": 20,
-      "songId": 2702969612,
-      "title": "火星人",
-      "alias": "TVアニメ『小市民シリーズ』第2期オープニングテーマ",
-      "artist": "ヨルシカ",
-      "album": "火星人",
-      "durationMs": 234929,
-      "playCount": 2,
-      "score": 13
+      "score": 14
     }
   ],
   "allTime": [
@@ -350,7 +350,7 @@
       "artist": "chilldspot",
       "album": "ingredients",
       "durationMs": 200248,
-      "playCount": 226,
+      "playCount": 227,
       "score": 41
     },
     {
